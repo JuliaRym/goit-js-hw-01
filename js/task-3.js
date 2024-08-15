@@ -3,8 +3,6 @@ function getElementWidth(content, padding, border) {
   const b = padding.replace("px", "");
   const c = border.replace("px", "");
 
-  console.log(a, b, c);
-
   return Number(a) + 2 * Number(b) + 2 * Number(c);
 }
 
